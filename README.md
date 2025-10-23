@@ -137,9 +137,8 @@ This project demonstrates:
 **This is proprietary software developed for portfolio demonstration.**
 
 For business inquiries or technical discussions about this project:
-- **LinkedIn**: [Your LinkedIn Profile]
-- **Email**: [Your Professional Email]
-- **Portfolio**: [Your Portfolio Website]
+- **LinkedIn**: https://linkedin.com/in/anudsaud
+- **Email**: anudsaud07@gmail.com
 
 ---
 
