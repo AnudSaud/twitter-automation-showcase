@@ -1,4 +1,4 @@
-# 🛠️ Technical Implementation
+# Technical Implementation
 
 ## Architecture Overview
 
@@ -24,16 +24,16 @@
 ## Backend Stack
 
 ### Core Framework
-- **FastAPI** - Modern, fast web framework for building APIs
-- **Python 3.11** - Latest stable Python with performance improvements
-- **Uvicorn** - Lightning-fast ASGI server
+- **FastAPI** - Web framework for building APIs
+- **Python 3.11** - Python with performance improvements
+- **Uvicorn** - ASGI server
 - **Pydantic** - Data validation using Python type hints
 
 ### Database Layer
-- **PostgreSQL 17** - Advanced relational database
+- **PostgreSQL 17** - Relational database
 - **SQLAlchemy** - Python SQL toolkit and ORM
 - **Alembic** - Database migration tool
-- **JSONB** - Flexible document storage within PostgreSQL
+- **JSONB** - Document storage within PostgreSQL
 
 ### Authentication & Security
 - **JWT Tokens** - Stateless authentication
@@ -42,17 +42,17 @@
 - **Rate Limiting** - API protection
 
 ### AI Integration
-- **Groq API** - Free LLM access with Llama 3.3 70B
+- **Groq API** - LLM access with Llama 3.3 70B
 - **Custom Prompt Engineering** - Optimized for Twitter content
-- **Retry Logic** - Robust error handling
+- **Retry Logic** - Error handling
 - **Response Validation** - Quality control checks
 
 ## Frontend Stack
 
 ### Core Framework
-- **React 18** - Modern UI library with Hooks
+- **React 18** - UI library with Hooks
 - **TypeScript** - Type-safe JavaScript
-- **Vite** - Fast build tool and dev server
+- **Vite** - Build tool and dev server
 - **ESLint** - Code quality enforcement
 
 ### UI & Styling
@@ -69,7 +69,7 @@
 
 ### API Communication
 - **Axios** - HTTP client with interceptors
-- **Error Boundaries** - Graceful error handling
+- **Error Boundaries** - Error handling
 - **Loading States** - User feedback systems
 - **Optimistic Updates** - Immediate UI feedback
 
@@ -81,7 +81,7 @@
 GROQ_API_KEY = "free_tier_key"
 MODEL = "llama-3.3-70b-versatile"
 RATE_LIMIT = 14400  # requests per day
-COST = 0.00  # completely free
+COST = 0.00  # free tier
 ```
 
 ### Social Media APIs
@@ -111,7 +111,7 @@ DEDUPLICATION = "SHA256 content hashing"
 - **Pre-commit Hooks** - Automated code checking
 - **Type Checking** - MyPy for Python, TypeScript for frontend
 - **Testing** - Pytest for backend, Jest for frontend
-- **Code Coverage** - 90%+ coverage requirements
+- **Code Coverage** - Coverage requirements
 
 ### Development Tools
 ```bash
@@ -180,7 +180,7 @@ twitter_accounts (
 - **Indexing Strategy** - Composite indexes on frequent queries
 - **Connection Pooling** - SQLAlchemy pool management
 - **Query Optimization** - N+1 problem prevention
-- **JSONB Queries** - Efficient document querying
+- **JSONB Queries** - Document querying
 
 ## Deployment Architecture
 
@@ -248,7 +248,3 @@ class ThreadCreate(BaseModel):
 - **Connection Pooling** - Database connection optimization
 - **Caching Strategy** - Redis for frequent data
 - **Load Balancing** - Multi-instance deployment ready
-
----
-
-*Built with modern development practices and enterprise-grade architecture principles.*
